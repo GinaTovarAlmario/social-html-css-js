@@ -11,4 +11,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: blue;
+    padding: 5px 5%;
+}
+.logo{
+    width: 100px;
+    margin-right: 45px;
+
 }
