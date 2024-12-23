@@ -28,5 +28,11 @@ nav{
     margin: 0 10px;
     list-style: none;
     display: inline-block;
-    
+}
+.user-icon {
+    width: 80px;
+    height: 80px;
+}
+.profile{
+    width: 100%;
 }
