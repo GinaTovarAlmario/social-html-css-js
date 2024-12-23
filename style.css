@@ -81,7 +81,19 @@ nav{
     background-color: aquamarine;
     flex-basis: 25%;
     position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
 }
 .right-sidebar{
     background-color: pink;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+
+}
+.main-content{
+    flex-basis: 47%;
 }
