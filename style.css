@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #0c71f5;
     padding: 5px 5%;
     position: sticky;
     top: 0;
@@ -103,7 +103,7 @@ nav{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    color: #625662;
+    color: #0c71f5;
     font-size: 25px;
 }
 .links .fa-solid,
