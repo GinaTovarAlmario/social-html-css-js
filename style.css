@@ -103,10 +103,12 @@ nav{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    color: #0c71f5;
-    font-size: 25px;
+    color: #625662;
+    font-size: 20px;
 }
 .links .fa-solid,
 .links .fa-regular{
     margin-right: 15px;
+    font-size: 25px;
+    color: #0c71f5;
 }
