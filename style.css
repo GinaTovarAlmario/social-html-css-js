@@ -72,3 +72,14 @@ nav{
     top: 0;
     right: 0;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+}
+.left-sidebar{
+    background-color: aquamarine;
+}
+.right-sidebar{
+    background-color: pink;
+}
