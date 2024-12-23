@@ -14,7 +14,7 @@ nav{
     padding: 5px 5%;
 }
 .logo{
-    width: 100px;
+    width: 80px;
     margin-right: 45px;
 
 }
@@ -25,6 +25,7 @@ nav{
 .nav-left ul li{
     color: white;
     font-size: 20px;
+    margin: 0 10px;
     list-style: none;
     display: inline-block;
     
