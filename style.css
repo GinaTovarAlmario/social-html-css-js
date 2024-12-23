@@ -22,3 +22,10 @@ nav{
     display: flex;
     align-items: center;
 }
+.nav-left ul li{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    
+}
