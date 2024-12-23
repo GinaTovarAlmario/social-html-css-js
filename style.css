@@ -104,4 +104,9 @@ nav{
     align-items: center;
     margin-bottom: 30px;
     color: #625662;
+    font-size: 25px;
+}
+.links .fa-solid,
+.links .fa-regular{
+    margin-right: 15px;
 }
