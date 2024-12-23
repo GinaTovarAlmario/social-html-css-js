@@ -60,6 +60,7 @@ nav{
 .online{
     position: relative;
 }
+/* dot online user */
 .online::after{
     content: '';
     width: 7px;
