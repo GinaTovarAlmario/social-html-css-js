@@ -50,4 +50,7 @@ nav{
 .search-box input{
     width: 100%;
     background: transparent;
+    padding: 10px;
+    outline: none;
+    border: none;
 }
