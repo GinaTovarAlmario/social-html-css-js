@@ -6,6 +6,8 @@
 body{
     background: #efefef;
 }
-.logo{
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
