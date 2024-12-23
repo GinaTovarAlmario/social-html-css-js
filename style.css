@@ -79,6 +79,8 @@ nav{
 }
 .left-sidebar{
     background-color: aquamarine;
+    flex-basis: 25%;
+    position: sticky;
 }
 .right-sidebar{
     background-color: pink;
