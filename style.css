@@ -391,6 +391,9 @@ nav {
     color: #626262;
     margin: 20px 0;
 }
+.post-container p{
+    margin-top: 10px;
+}
 .user-profile span{
     font-size: 13px;
     color: #9a9a9a;
