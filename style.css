@@ -236,7 +236,7 @@ nav{
     bottom: 5px;
 }
 /* vado a gestire lo stile della icona aggiungi story */
-.story .fa-solid{
+.story .fa-solid, .story .icons-story{
     height: 35px;
     width: 35px;
     font-size: 16px;
@@ -273,4 +273,7 @@ nav{
     text-align: center;
     color: #fff;
     font-size: 14px;
+}
+.story .icons-story{
+    object-fit: cover;
 }
