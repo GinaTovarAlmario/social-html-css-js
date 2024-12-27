@@ -112,3 +112,9 @@ nav{
     font-size: 25px;
     color: #0c71f5;
 }
+.links a:last-child{
+    color: #0c71f5;
+}
+.links{
+    border-bottom: 1px solid #ccc;
+}
