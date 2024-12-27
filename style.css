@@ -379,3 +379,7 @@ nav {
 .add-post-links .fa-video{
     color: red;
 }
+.add-post-links .fa-solid, .add-post-links .fa-regular{
+    font-size: 20px;
+    margin-right: 10px;
+}
