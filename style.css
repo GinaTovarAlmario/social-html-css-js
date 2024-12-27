@@ -213,3 +213,14 @@ nav{
     margin-bottom: 20px;
     border-radius: 4px;
 }
+.online-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.online-list .online img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
