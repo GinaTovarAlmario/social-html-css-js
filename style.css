@@ -237,16 +237,20 @@ nav{
 }
 /* vado a gestire lo stile della icona aggiungi story */
 .story .fa-solid{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     font-size: 16px;
     color: #fff;
     background-color: #1876f2;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    position: absolute;
     border-radius: 50%;
+    top: 0;
+    left: 8px;
+    border-radius: 5px solid #626262;
+
 }
 .story-gallery{
     display: flex;
@@ -257,8 +261,16 @@ nav{
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: url(img/social-profile.jpg);
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/social-profile.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+}
+.story p{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
 }
