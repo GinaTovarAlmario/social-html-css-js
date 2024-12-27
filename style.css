@@ -235,3 +235,30 @@ nav{
     top: unset;
     bottom: 5px;
 }
+/* vado a gestire lo stile della icona aggiungi story */
+.story .fa-solid{
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1876f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.story-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.story{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-image: url(img/social-profile.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
