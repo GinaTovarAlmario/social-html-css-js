@@ -321,7 +321,20 @@ nav {
 }
 
 .user-profile img{
-    height: 100px;
-    width: 100px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
     object-fit: cover;
+}
+.write-post-container{
+    width: 100%;
+    background:#fff;
+    border-radius: 6px;
+    padding: 20px;
+    columns: #626262;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
 }
