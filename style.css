@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #efefef;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,19 +20,19 @@ nav{
     z-index: 100;
 }
 
-.logo{
+.logo {
     width: 80px;
     margin-right: 45px;
 
 }
 
 .nav-left,
-.nav-right{
+.nav-right {
     display: flex;
     align-items: center;
 }
 
-.nav-left ul li{
+.nav-left ul li {
     color: white;
     font-size: 20px;
     margin: 0 10px;
@@ -42,7 +42,7 @@ nav{
 
 }
 
-.nav-user-icon img{
+.nav-user-icon img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -50,12 +50,12 @@ nav{
 
 }
 
-.nav-user-icon{
+.nav-user-icon {
     margin-left: 30px;
     cursor: pointer;
 }
 
-.search-box{
+.search-box {
     background-color: #efefef;
     width: 350px;
     border-radius: 20px;
@@ -64,12 +64,12 @@ nav{
     padding: 0 15px;
 }
 
-.search-box .fa-solid{
+.search-box .fa-solid {
     font-size: 20px;
     margin-right: 5px;
 }
 
-.search-box input{
+.search-box input {
     width: 100%;
     background: transparent;
     padding: 10px;
@@ -77,12 +77,12 @@ nav{
     border: none;
 }
 
-.online{
+.online {
     position: relative;
 }
 
 /* dot online user */
-.online::after{
+.online::after {
     content: '';
     width: 7px;
     height: 7px;
@@ -94,20 +94,20 @@ nav{
     right: 0;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     padding: 15px 5%;
 }
 
-.left-sidebar{
+.left-sidebar {
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
 }
 
-.right-sidebar{
+.right-sidebar {
     flex-basis: 25%;
     position: sticky;
     top: 70px;
@@ -115,15 +115,15 @@ nav{
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
-    color:  #625662
+    color: #625662
 }
 
-.main-content{
+.main-content {
     flex-basis: 47%;
 }
 
 .links a,
-.shortcut-links a{
+.shortcut-links a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -133,53 +133,58 @@ nav{
 }
 
 .links .fa-solid,
-.links .fa-regular{
+.links .fa-regular {
     margin-right: 15px;
     font-size: 25px;
     color: #0c71f5;
 }
 
-.links a:last-child{
+.links a:last-child {
     color: #0c71f5;
 }
 
-.links{
+.links {
     border-bottom: 1px solid #ccc;
 }
 
-.shortcut-links img{
+.shortcut-links img {
     width: 40px;
     height: 40px;
     border-radius: 4px;
     margin-right: 15px;
 }
 
-.shortcut-links p{
+.shortcut-links p {
     margin: 25px 0;
     color: #625662;
     font-weight: 500;
 }
-.sidebar-title{
+
+.sidebar-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 18px;
 }
-.right-sidebar h4{
+
+.right-sidebar h4 {
     font-weight: 600;
     font-size: 16px;
 }
-.sidebar-title a{
+
+.sidebar-title a {
     text-decoration: none;
     font-size: 12px;
     color: #1876f2;
 }
-.event{
+
+.event {
     display: flex;
     font-size: 14px;
     margin-bottom: 20px;
 }
-.left-event{
+
+.left-event {
     border-radius: 10px;
     height: 65px;
     width: 65px;
@@ -190,17 +195,20 @@ nav{
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.event p{
+
+.event p {
     font-size: 12px;
     margin: 5px 0;
 }
-.event a{
+
+.event a {
     font-size: 12px;
     text-decoration: none;
     color: #1876f2;
 }
+
 /* vado a cambiare lo stile per la scritta del mese nella data */
-.left-event span{
+.left-event span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -210,33 +218,40 @@ nav{
     font-size: 10px;
     padding: 4px 0;
 }
-.sidebar-ads{
+
+.sidebar-ads {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 4px;
 }
-.online-list{
+
+.online-list {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.online-list .online img{
+
+.online-list .online img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
-.online-list .online{
+
+.online-list .online {
     width: 40px;
     border-radius: 50%;
     margin-right: 15px;
 }
-.online-list .online::after{
+
+.online-list .online::after {
     top: unset;
     bottom: 5px;
 }
+
 /* vado a gestire lo stile della icona aggiungi story */
-.story .fa-solid, .story .icons-story{
+.story .fa-solid,
+.story .icons-story {
     height: 35px;
     width: 35px;
     font-size: 16px;
@@ -249,15 +264,17 @@ nav{
     border-radius: 50%;
     top: 0;
     left: 8px;
-    border-radius: 5px solid #626262;
+    border: 5px solid #1876f2;
 
 }
-.story-gallery{
+
+.story-gallery {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.story{
+
+.story {
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
@@ -265,7 +282,8 @@ nav{
     background-size: cover;
     border-radius: 10px;
 }
-.story p{
+
+.story p {
     position: absolute;
     bottom: 10px;
     width: 100%;
@@ -273,27 +291,37 @@ nav{
     color: #fff;
     font-size: 14px;
 }
-.story .icons-story{
+
+.story .icons-story {
     object-fit: cover;
 }
-.story1{
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/social-profile.jpg);
-}
-.story2{
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status1.jpg);
 
+.story1 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(img/social-profile.jpg);
 }
-.story3{
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status2.jpg);
 
-}
-.story4{
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status3.jpg);
-
-}
-.story5{
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status4.jpg);
+.story2 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(img/status1.jpg);
 
 }
 
+.story3 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(img/status2.jpg);
 
+}
+
+.story4 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(img/status3.jpg);
+
+}
+
+.story5 {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(img/status4.jpg);
+
+}
+
+.user-profile img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
