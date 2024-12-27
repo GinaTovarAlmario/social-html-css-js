@@ -371,7 +371,7 @@ nav {
     font-size: 13px;
 }
 .add-post-links .fa-face-smile{
-    color: yellow;
+    color: gold;
 }
 .add-post-links .fa-camera{
     color: green;
@@ -382,4 +382,12 @@ nav {
 .add-post-links .fa-solid, .add-post-links .fa-regular{
     font-size: 20px;
     margin-right: 10px;
+}
+.post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
 }
