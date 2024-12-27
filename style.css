@@ -261,7 +261,6 @@ nav{
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/social-profile.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -277,3 +276,24 @@ nav{
 .story .icons-story{
     object-fit: cover;
 }
+.story1{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/social-profile.jpg);
+}
+.story2{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status1.jpg);
+
+}
+.story3{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status2.jpg);
+
+}
+.story4{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status3.jpg);
+
+}
+.story5{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(img/status4.jpg);
+
+}
+
+
