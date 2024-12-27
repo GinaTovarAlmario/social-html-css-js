@@ -409,3 +409,9 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+.interactions .fa-solid, .interactions .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+    color:#625662;
+}
+
